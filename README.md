@@ -15,17 +15,20 @@ Para agregar todos los archivos nuevos y modificados:
 Bash
 
 git add .
+
 Para agregar un archivo específico:
 
 Bash
 
 git add nombre_del_archivo.txt
+
 3. Crea el primer "commit"
 Un commit es como una instantánea o punto de guardado de tu proyecto. El mensaje debe ser claro y conciso, describiendo los cambios que has hecho.
 
 Bash
 
 git commit -m "Descripción inicial del proyecto"
+
 4. Crea un nuevo repositorio en GitHub
 Ve a tu perfil de GitHub y crea un nuevo repositorio. No marques la opción de inicializarlo con un README.md o un archivo .gitignore.
 
