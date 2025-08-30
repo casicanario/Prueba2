@@ -53,3 +53,22 @@ Bash
 
 git push -u origin master
 Nota: En algunos casos, la rama principal se llama main en lugar de master. Si es tu caso, usa git push -u origin main.
+
+
+
+
+
+Subir los cambios realizados al repositorio con el comando "git push".
+
+C:\Codenotch\Prueba2>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 345 bytes | 345.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/casicanario/Prueba2
+   777fd29..e576c64  main -> main
+
+Esto significa que tu push funcionó correctamente y tu repositorio local ahora está completamente sincronizado con GitHub.
